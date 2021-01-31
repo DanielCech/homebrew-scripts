@@ -1,4 +1,4 @@
-class CodeTemplater < Formula
+class Codetemplater < Formula
     desc "CodeTemplater is command line tool for generating Swift source code from templates."
     homepage "https://github.com/strvcom/ios-code-templates"
     url "https://github.com/DanielCech/homebrew-scripts/blob/main/Release/codeTemplater-0.1.1.tar.gz"
