@@ -1,16 +1,16 @@
-class Codetemplater < Formula
-    desc "CodeTemplater is command line tool for generating Swift source code from templates."
+class Tag < Formula
+    desc "Tag file or directory with timestamp (YYYY-MM-DDc) based on last modification date"
     homepage "https://github.com/DanielCech/homebrew-scripts"
-    url "https://github.com/DanielCech/homebrew-scripts/releases/download/0.1.1/codetemplater-0.1.1.tar.gz"
-    sha256 "f4f7b2a8ce6664aef96ce327b913f9064fd194d6f3307b5e6e612eddecd2a570"
+    url "https://github.com/DanielCech/homebrew-scripts/releases/download/0.1.1/tag-1.0.0.tar.gz"
+    sha256 "4800848fcce7acfc2d8ecddc0e793b516f77a89edc6dc9f66609676bbe452b7e"
   
     bottle :unneeded
   
     def install
-      bin.install "codetemplater"
+      bin.install "tag"
     end
   
     test do
-      system "#{bin}/codetemplater", "--help"
+      system "#{bin}/tag", "--help"
     end
   end

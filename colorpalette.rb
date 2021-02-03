@@ -1,16 +1,16 @@
-class Codetemplater < Formula
-    desc "CodeTemplater is command line tool for generating Swift source code from templates."
+class Colorpalette < Formula
+    desc "Shows hexa codes of colors in Xcode palette. Input dir (or one of its subdirectories) should contain .xcassets folder and App Colors subfolder with Xcode palette colors."
     homepage "https://github.com/DanielCech/homebrew-scripts"
-    url "https://github.com/DanielCech/homebrew-scripts/releases/download/0.1.1/codetemplater-0.1.1.tar.gz"
-    sha256 "f4f7b2a8ce6664aef96ce327b913f9064fd194d6f3307b5e6e612eddecd2a570"
+    url "https://github.com/DanielCech/homebrew-scripts/releases/download/0.1.1/colorpalette-1.0.0.tar.gz"
+    sha256 "b66df25b738e97212d0847ace6ef26d6949faf2cc65a57fa732e0de44b261041"
   
     bottle :unneeded
   
     def install
-      bin.install "codetemplater"
+      bin.install "colorpalette"
     end
   
     test do
-      system "#{bin}/codetemplater", "--help"
+      system "#{bin}/colorpalette"
     end
   end
